@@ -1,0 +1,20 @@
+{
+  "name": "jarvisbot",
+  "version": "1.0",
+  "description": "Economic bot to discord server's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon core",
+    "dev": "node -r dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "Luiz Matheus",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "discord.js": "^13.5.1",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.1.5"
+  }
+}
